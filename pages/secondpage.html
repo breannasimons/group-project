@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | My Website</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/internet/">About the Internet</a>
+  </nav>
 
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <p>© 2025 My Website</p>
+  </footer>
+</body>
+</html>
